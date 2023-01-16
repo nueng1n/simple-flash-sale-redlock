@@ -1,0 +1,39 @@
+version: '3.2'
+services:
+
+  redis:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6380:6379'
+
+
+  backend1:
+      build: ./flash_sale_server
+      tty: true
+      # ports:
+      # - '3000:3000'
+      environment:
+        - INIT_NUM=3
+        - INIT_SET=TRUE
+
+  backend2:
+      build: ./flash_sale_server
+      tty: true
+ 
+
+  backend3:
+      build: ./flash_sale_server
+      tty: true
+
+  loadbalancer:
+      build: ./load-balancer
+      tty: true
+      links:
+          - backend1
+          - backend2
+          - backend3
+      ports:
+          - '8080:8080'
+
+
