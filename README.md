@@ -2,7 +2,7 @@
 
 This repo show how to implement redlock for support flash sale with  Limited Quantity.
 
-for my learning.
+(FOR my learning).
 
 NOTE if u want to use in production USE "https://www.npmjs.com/package/redlock".
 
