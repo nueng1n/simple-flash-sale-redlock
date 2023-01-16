@@ -1,6 +1,6 @@
 # simple-flash-sale-redlock
 
-this repo show how to implement redlock for support flash sale with  Limited Quantity.
+This repo show how to implement redlock for support flash sale with  Limited Quantity.
 
 for my learning.
 
