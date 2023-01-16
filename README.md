@@ -4,9 +4,9 @@ This repo show how to implement redlock for support flash sale with  Limited Qua
 
 (FOR my learning).
 
-NOTE if u want to use in production USE "https://www.npmjs.com/package/redlock".
+NOTE if you want to use in production USE "https://www.npmjs.com/package/redlock".
 
-I start DOKCER COMPOSE with loadbalancing and u can see i provide num of Apple is 3 follow below image.
+I start DOKCER COMPOSE with loadbalancing and you can see i provide num of Apple is 3 follow below image.
 
 ![image](https://user-images.githubusercontent.com/115057360/212621369-d176f0ed-6426-4d46-b594-b063bb0f3b53.png)
 
